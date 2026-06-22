@@ -1,0 +1,26 @@
+[server]
+# Límite de subida: 10 GB (videos de campo de hasta 8 horas)
+maxUploadSize = 10000
+
+# Puerto fijo para no cambiar en cada reinicio
+port = 8501
+
+# No abrir browser automáticamente
+headless = false
+
+[browser]
+# No enviar estadísticas de uso a Streamlit
+gatherUsageStats = false
+
+[runner]
+# Evitar rerun innecesario al cambiar archivos externos
+fastReruns = true
+
+[theme]
+# Base oscura — el CSS de theme.py sobreescribe el resto
+base = "dark"
+backgroundColor      = "#0A0C10"
+secondaryBackgroundColor = "#111318"
+textColor            = "#F1F5F9"
+primaryColor         = "#F5A623"
+font                 = "sans serif"

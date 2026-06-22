@@ -1,0 +1,20 @@
+venv/
+.venv/
+__pycache__/
+*.pyc
+*.pyo
+logs/
+outputs/
+runs/
+*.egg-info/
+.env
+
+# Entrenamiento YOLOv8
+runs/
+
+# Dataset descargado de Roboflow
+vehiculos-peruanos-lima-1/
+
+# Modelos grandes (el best.pt ya está en models/)
+*.pt
+!models/vehiculos_peruanos.pt

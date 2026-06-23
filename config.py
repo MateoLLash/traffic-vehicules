@@ -15,7 +15,7 @@ MODEL_PATH = "yolov8n.pt"  # Puedes cambiar a 'yolov8s.pt' o 'yolov8m.pt' para m
 DEFAULT_MODEL_SIZE = 's'  # 'n' = nano, 's' = small, 'm' = medium, 'l' = large
 CONFIDENCE_THRESHOLD = 0.5  # Umbral de confianza más alto reduce detecciones espurias
 IOU_THRESHOLD = 0.5  # Umbral de IoU más alto mejora la asociación de objetos
-DEVICE = "cpu"  # 'cpu' o '0' (para GPU NVIDIA)
+DEVICE = "0"  # 'cpu' o '0' (para GPU NVIDIA)
 
 # --- CONFIGURACIÓN DE TRACKING ---
 TRACKER_MAX_AGE = 15  # Frames antes de eliminar un track sin actualizaciones

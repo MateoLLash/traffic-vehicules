@@ -18,3 +18,20 @@ vehiculos-peruanos-lima-1/
 # Modelos grandes (el best.pt ya está en models/)
 *.pt
 !models/vehiculos_peruanos.pt
+# Modelos entrenados
+models/
+*.pt
+
+# Dataset descargado
+vehiculos-peruanos-lima-3/
+
+# Frames e imágenes temporales
+frame_*.jpg
+frame_*.png
+
+# Archivos de entrenamiento
+runs/
+train.py
+
+# Variables de entorno
+.env
